@@ -3,8 +3,10 @@ class ShoppingCart
   @@cart = []
   
   def call(env)
-    
-  end 
+    resp = Rack::Response.new 
+    req = Rack::Request.new(env)
+    if 
+  end
   
   
 end 
